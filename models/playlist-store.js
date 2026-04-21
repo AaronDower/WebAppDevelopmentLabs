@@ -21,13 +21,14 @@ const playlistStore = {
     this.store.addItem(this.collection, id, this.array, song);
 },
 
+
+
+
   addPlaylist(playlist) {
     this.store.addCollection(this.collection, playlist);
 },
 
-editSong(id, songId, updatedSong) {
-    this.store.editItem(this.collection, id, songId, this.array, updatedSong);
-},
+
 
 searchPlaylist(search) {
     return this.store.findBy(
@@ -44,6 +45,11 @@ searchUserPlaylists(search, userid) {
     this.collection,
     (playlist => playlist.userid === userid && playlist.title.toLowerCase().includes(search.toLowerCase())))
 }, 
+
+editSong(id, songId, updatedSong) {
+    this.store.editItem(this.collection, id, songId, this.array, updatedSong);
+},
+
 
 
 };

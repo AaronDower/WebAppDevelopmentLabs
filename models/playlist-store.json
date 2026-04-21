@@ -5,7 +5,13 @@
       "id": "25c72a84-b9bd-4938-b053-950eb74af5f0",
       "title": "Springfield sounds",
       "rating": null,
-      "songs": [],
+      "songs": [
+        {
+          "id": "80d391cd-fc1a-4c8d-8164-945532bdea85",
+          "title": "Waterfall",
+          "artist": "The Stone Roses"
+        }
+      ],
       "date": "2026-04-16T15:04:35.780Z"
     },
     {
@@ -26,6 +32,14 @@
         }
       ],
       "date": "2026-04-16T15:05:44.404Z"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "a3e645df-0d21-468a-8a31-cd15f9f3e0fd",
+      "title": "Springfield",
+      "rating": null,
+      "songs": [],
+      "date": "2026-04-21T13:34:50.669Z"
     }
   ]
 }
