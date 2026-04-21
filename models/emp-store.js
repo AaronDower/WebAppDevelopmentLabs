@@ -7,9 +7,7 @@ const empStore = {
 
   store: new JsonStore('./models/emp-store.json', { employees: [] }),
   collection: 'employees ',
-
-
-  getEmpInfo() {
+  getEmployees() {
     return this.store.findAll(this.collection);
   },
 
