@@ -23,16 +23,14 @@ router.get('/', accounts.index);
 router.get('/login', accounts.login);
 router.get('/signup', accounts.signup);
 router.get('/logout', accounts.logout);
-
-
+router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 
 router.post('/playlist/:id/addsong', playlist.addSong);
 router.post('/dashboard/addplaylist', dashboard.addPlaylist);
 router.post('/playlist/:id/updatesong/:songid', playlist.updateSong);
+router.post('/playlist/:id/deletesong/:songid', playlist.deleteSong);
 router.post('/register', accounts.register);
 router.post('/authenticate', accounts.authenticate);
-
-
 export default router;

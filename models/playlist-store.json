@@ -1,20 +1,6 @@
 {
   "playlistCollection": [
     {
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "id": "25c72a84-b9bd-4938-b053-950eb74af5f0",
-      "title": "Springfield sounds",
-      "rating": null,
-      "songs": [
-        {
-          "id": "80d391cd-fc1a-4c8d-8164-945532bdea85",
-          "title": "Waterfall",
-          "artist": "The Stone Roses"
-        }
-      ],
-      "date": "2026-04-16T15:04:35.780Z"
-    },
-    {
       "userid": "1b0d8825-9c32-4200-a510-72de33504150",
       "id": "07a45783-a3aa-43b5-a420-33ec5d815869",
       "title": "Favourites",
@@ -32,14 +18,6 @@
         }
       ],
       "date": "2026-04-16T15:05:44.404Z"
-    },
-    {
-      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "id": "a3e645df-0d21-468a-8a31-cd15f9f3e0fd",
-      "title": "Springfield",
-      "rating": null,
-      "songs": [],
-      "date": "2026-04-21T13:34:50.669Z"
     }
   ]
 }

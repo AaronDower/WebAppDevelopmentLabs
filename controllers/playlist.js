@@ -46,6 +46,17 @@ const playlist = {
     };
     playlistStore.editSong(playlistId, songId, updatedSong);
     response.redirect('/playlist/' + playlistId);
+},
+
+deleteSong(request, response) {
+  const playlistId = request.params.id;
+  const songId = request.params.songid;
+
+  logger.debug("Deleting song " + songId);
+
+  playlistStore.deleteSong(playlistId, songId);
+
+  response.redirect('/playlist/' + playlistId);
 }
 
 

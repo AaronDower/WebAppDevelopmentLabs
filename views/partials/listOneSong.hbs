@@ -15,10 +15,11 @@
 
 
   </td>
-  <td class="center aligned">
-    <a href="/playlist/{{playlistId}}/deletesong/{{id}}" 
-	   title="Delete song">
-      <i class="ui black trash icon"></i>
-    </a>
+  <td> <form action="/playlist/{{playlistId}}/deletesong/{{id}}" method="POST" style="display:inline;">
+  <button type="submit" title="Delete song" style="background:none;border:none;">
+    <i class="ui black trash icon"></i>
+  </button>
+</form>
+  
   </td>
 </tr>
