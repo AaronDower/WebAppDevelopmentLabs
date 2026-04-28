@@ -1,23 +1,16 @@
 {
   "playlistCollection": [
     {
-      "userid": "1b0d8825-9c32-4200-a510-72de33504150",
-      "id": "07a45783-a3aa-43b5-a420-33ec5d815869",
-      "title": "Favourites",
-      "rating": null,
-      "songs": [
-        {
-          "id": "037cf621-aade-400f-9c19-17e8b941da25",
-          "title": "Lemon Scent",
-          "artist": "Dead Sara"
-        },
-        {
-          "id": "4859e8fb-3360-4c34-abb0-8231a1467453",
-          "title": "Come as you Are",
-          "artist": "Nirvana"
-        }
-      ],
-      "date": "2026-04-16T15:05:44.404Z"
+      "id": "c5b73598-6868-4f2b-a0b4-0132dfb6f51f",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "asd",
+      "rating": 3,
+      "songs": [],
+      "date": "2026-04-28T14:14:57.492Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dfbqllrdk/image/upload/v1777385697/wvkhpjeoubvdqm9s1yjk.jpg",
+        "public_id": "wvkhpjeoubvdqm9s1yjk"
+      }
     }
   ]
 }
